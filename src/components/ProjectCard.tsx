@@ -10,8 +10,9 @@ type ProjectCardProps = {
   linkGit: string,
   catCard: number,
   bgColor: string,
-  tagsBlue: (string | undefined)[],
-  tagsRed: (string)[],
+  // tagsBlue: (string | undefined)[],
+  tagsBlue: string[],
+  tagsRed: string[],
   // offsetY: number,
 }
 

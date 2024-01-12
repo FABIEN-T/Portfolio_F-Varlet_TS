@@ -1,13 +1,9 @@
-// import PropTypes from 'prop-types'
-
-// type ListProps = string[]
-
-export default function ListTags({ list }: string[]) {
-  console.log("list", list)
+export default function ListTags({ list }: { list: string[] }) {
+  // console.log("list", list)
   return (
-    ListTags.length > 0 && (
+    list.length > 0 && (
       <>
-        {list.map((tag: string, index: string) => (
+        {list.map((tag: string, index: number) => (
           <ul
             key={`${tag}-${index}`}
             className={`flex flex-col text-sm text-white rounded-tl-md rounded-br-md mr-2 mb-1`}
@@ -20,6 +16,3 @@ export default function ListTags({ list }: string[]) {
   )
 }
 
-// ListTags.propTypes = {
-//   ListTags: PropTypes.arrayOf(PropTypes.string),
-// }

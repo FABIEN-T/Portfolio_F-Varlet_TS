@@ -1,6 +1,6 @@
 import SectionPortrait from './SectionPortrait'
 import SectionSkills from './SectionSkills'
-// import SectionProjects from './SectionProjects'
+import SectionProjects from './SectionProjects'
 // import SectionContact from './SectionContact'
 
 export default function Sections() {
@@ -8,8 +8,8 @@ export default function Sections() {
     <main className="w-full h-fit">
       <SectionPortrait />
       <SectionSkills />
-      {/* <SectionProjects />
-      <SectionContact /> */}
+      <SectionProjects />
+      {/* <SectionContact /> */}
     </main>
   )
 }

@@ -1,12 +1,6 @@
 import SkillCard from './SkillCard'
 import { datasSkills } from '../datas/datasSkills'
 
-type datasSkillProps = {
-  id: string,
-  skill: string,
-  logoSvg: string,
-}
-
 export default function SectionSkills() {
   return (
     <section
@@ -18,8 +12,8 @@ export default function SectionSkills() {
       </h2>
 
       <ul className="grid mx-auto grid-cols-3 gap-3 sm:grid-cols-4 sm:gap-4 lg:max-w-3xl">
-        {datasSkills.map(({ id, skill, logoSvg } : datasSkillProps) => (
-          <SkillCard key={id} skill={skill} logoSvg={logoSvg} />
+        {datasSkills.map((item) => (
+          <SkillCard key={item.id} id={item.id} skill={item.skill} logoSvg={item.logoSvg} />
         ))}
       </ul>
     </section>

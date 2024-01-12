@@ -1,6 +1,7 @@
 import { datasProjects } from '../datas/datasProjects'
 import ProjectCard from './ProjectCard'
 
+
 export default function SectionProjects() {
   return (
     <section
@@ -12,7 +13,7 @@ export default function SectionProjects() {
       </h2>
       <p className="text-xs text-gray-dark leading-5 max-w-xs mx-auto text-center sm:leading-6 sm:font-light sm:text-lg sm:mb-14 sm:max-w-md md:text-xl md:max-w-xl">
         Projets professionnalisants réalisés en autonomie lors de ma formation
-        de Développeur d'Applications Javascript-React (Titre RNCP38038 ) et
+        de Développeur d'Applications Javascript-React (Titre RNCP38038) et
         projets personnels
       </p>
       {/* Grid */}
@@ -28,7 +29,7 @@ export default function SectionProjects() {
             bgColor,
             tagsBlue,
             tagsRed,
-            offsetY,
+            // offsetY,
           }) => (
             <ProjectCard
               key={title}
@@ -41,7 +42,7 @@ export default function SectionProjects() {
               bgColor={bgColor}
               tagsBlue={tagsBlue}
               tagsRed={tagsRed}
-              offsetY={offsetY}
+              // offsetY={offsetY}
             />
           ),
         )}

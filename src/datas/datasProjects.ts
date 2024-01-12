@@ -25,7 +25,7 @@ export const datasProjects = [
       'Animations CSS',
       'Loader',
       'Intégration des maquettes',
-      'Mobile first',
+      'Mobile first'
     ],
     offsetY: 20,
   },
@@ -60,7 +60,7 @@ export const datasProjects = [
       'Factory Pattern',
       'Site dyanmique',
       'Json',
-      'Eslint',
+      'Eslint'
     ],
     offsetY: 0,
   },
@@ -80,7 +80,7 @@ export const datasProjects = [
       'Optimisation du moteur de recherche',
       'Recherche avancée par mots clés',
       'Test de deux implémentations différentes',
-      'Fiche d’investigation et de  fonctionnalité',
+      'Fiche d’investigation et de  fonctionnalité'
     ],
     offsetY: 20,
   },
@@ -98,7 +98,7 @@ export const datasProjects = [
     tagsRed: [
       'Débogage des parcours administrateur et employé avec Chrome debugger',
       'Tests unitaires et d’intégration sur le parcours employé',
-      'Rédaction du plan de test End-to-End',
+      'Rédaction du plan de test End-to-End'
     ],
     offsetY: 40,
   },
@@ -118,7 +118,7 @@ export const datasProjects = [
       'Création des maquettes sur Figma',
       'Diagrammes de cas d’usages',
       'User Stories',
-      'Tableau Kanban',
+      'Tableau Kanban'
     ],
     offsetY: 40,
   },
@@ -138,7 +138,7 @@ export const datasProjects = [
       'Intégration de la maquette Figma',
       'Responsive',
       'Json',
-      'Initialisation du projet avec CRA',
+      'Initialisation du projet avec CRA'
     ],
     offsetY: 0,
   },
@@ -158,7 +158,7 @@ export const datasProjects = [
       'Création et affichage des graphiques depuis les données avec la librairie Recharts',
       'Json',
       'Production d’une Documentation technique avec JsDoc',
-      'Initialisation du projet avec CRA',
+      'Initialisation du projet avec CRA'
     ],
     offsetY: 20,
   },
@@ -188,7 +188,7 @@ export const datasProjects = [
       'Backend Node.js',
       'MongoDb',
       'Fichier swagger',
-      'Initialisation du projet avec CRA',
+      'Initialisation du projet avec CRA'
     ],
     offsetY: 40,
   },
@@ -208,7 +208,7 @@ export const datasProjects = [
       'Analyse de la performance de l’application et déploiement',
       'Publication d’un Package Npm : modale',
       'Atomic-Design',
-      'Initialisation du projet avec Vite',
+      'Initialisation du projet avec Vite'
     ],
     offsetY: 0,
   },
@@ -222,7 +222,7 @@ export const datasProjects = [
     // bgColor: 'bg-myBlue',
     bgColor: 'bg-gradient-to-tl from-rose-900 to-myBlue',
     tagsBlue: ['HTML', 'Tailwind CSS', 'REACT'],
-    tagsRed: [],
+    tagsRed: ['mon premier projet en Tailwind et Typescript'],
     offsetY: 40,
   },
   {
